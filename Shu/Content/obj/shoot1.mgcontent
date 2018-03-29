@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/shoot1.wav</SourceFile>
+  <SourceTime>2017-05-20T23:20:07.5702019+09:00</SourceTime>
+  <DestFile>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/bin/shoot1.xnb</DestFile>
+  <DestTime>2017-07-18T06:43:58.6705734+09:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2017-03-02T00:05:36+09:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2017-03-02T00:05:36+09:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/bgm_maoudamashii_acoustic52.mp3</SourceFile>
+  <SourceTime>2017-06-14T22:36:02.8438189+09:00</SourceTime>
+  <DestFile>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/bin/bgm_maoudamashii_acoustic52.xnb</DestFile>
+  <DestTime>2017-07-18T06:43:51.1199263+09:00</DestTime>
+  <Importer>Mp3Importer</Importer>
+  <ImporterTime>2017-03-02T00:05:36+09:00</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2017-03-02T00:05:36+09:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/bin/bgm_maoudamashii_acoustic52.wma</string>
+  </BuildOutput>
+</PipelineBuildEvent>

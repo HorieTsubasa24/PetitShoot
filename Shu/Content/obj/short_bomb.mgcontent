@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/short_bomb.mp3</SourceFile>
+  <SourceTime>2017-05-26T18:10:23.270656+09:00</SourceTime>
+  <DestFile>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/bin/short_bomb.xnb</DestFile>
+  <DestTime>2017-07-18T06:43:59.3440735+09:00</DestTime>
+  <Importer>Mp3Importer</Importer>
+  <ImporterTime>2017-03-02T00:05:36+09:00</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2017-03-02T00:05:36+09:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/bin/short_bomb.wma</string>
+  </BuildOutput>
+</PipelineBuildEvent>

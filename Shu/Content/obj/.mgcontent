@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/2_Sea(Stage4).wav</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/3_Meka(Stage2).wav</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/4_Space(Stage1).wav</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/5_Gosulori(Stage3).wav</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/6_Mystery(Stage5).wav</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/bgm_maoudamashii_8bit20.mp3</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/bgm_maoudamashii_8bit23.mp3</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/bgm_maoudamashii_8bit28.mp3</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/bgm_maoudamashii_acoustic50.mp3</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/bgm_maoudamashii_acoustic52.mp3</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/bgm_maoudamashii_orchestra26.mp3</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/button02a.wav</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/destruction1.mp3</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/Endroll.png</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/explosion1.mp3</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/explosion2.mp3</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/hansei.png</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/Item1.png</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/kaze(砂漠ステージ導入).wav</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/laser2.wav</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/shoot1.wav</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/short_bomb.mp3</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/spfont.spritefont</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/spfontg.spritefont</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/スライム.png</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/皿.png</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/自機.png</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/自機弾.png</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/小岩.png</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/消滅.png</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/大岩.png</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/敵機.png</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/敵機ボス.png</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/敵弾.png</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/透明.png</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/背景.png</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/背景テンプレート.png</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/背景下.png</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/砲台.png</File>
+    <File>C:/Users/passt/Documents/Visual Studio 2017/Projects/Shu/Shu/Content/隕石.png</File>
+  </SourceFiles>
+</SourceFileCollection>
