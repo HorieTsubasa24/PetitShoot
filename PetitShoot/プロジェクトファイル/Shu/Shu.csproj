@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8378CB2B-F9E6-47EF-AAD1-2CFA2950EFCC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Shu</RootNamespace>
+    <AssemblyName>Shu</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Content\Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AppPath.cs" />
+    <Compile Include="Audio.cs" />
+    <Compile Include="Chara.cs" />
+    <Compile Include="CharaAppear.cs" />
+    <Compile Include="Graphic_Insts.cs" />
+    <Compile Include="Graphics.cs" />
+    <Compile Include="Shu.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Update.cs" />
+    <Compile Include="Update_MovingMethods.cs" />
+    <Compile Include="Update_ControlMethods.cs" />
+    <Compile Include="Update_Param.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Microsoft.DirectX.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.DirectInput, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Microsoft.DirectX.DirectInput.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\2_Sea%28Stage4%29.wav" />
+    <Content Include="Content\3_Meka%28Stage2%29.wav" />
+    <Content Include="Content\4_Space%28Stage1%29.wav" />
+    <Content Include="Content\5_Gosulori%28Stage3%29.wav" />
+    <Content Include="Content\6_Mystery%28Stage5%29.wav" />
+    <Content Include="Content\beem1.mp3" />
+    <Content Include="Content\bgm_maoudamashii_acoustic52.mp3" />
+    <Content Include="Content\button02a.wav" />
+    <Content Include="Content\damage3%28連続爆発%29.mp3" />
+    <Content Include="Content\destruction1.mp3" />
+    <Content Include="Content\Endroll.png" />
+    <Content Include="Content\explosion1.mp3" />
+    <Content Include="Content\explosion2.mp3" />
+    <Content Include="Content\Item1.png" />
+    <Content Include="Content\itemget.mp3" />
+    <Content Include="Content\kaze%28砂漠ステージ導入%29.wav" />
+    <Content Include="Content\laser2.wav" />
+    <Content Include="Content\misairubakuhatu%28ボス爆発%29.mp3" />
+    <Content Include="Content\shoot1.wav" />
+    <Content Include="Content\short_bomb.mp3" />
+    <Content Include="Content\tuiraku2%28ボス墜落%29.mp3" />
+    <Content Include="Content\yesm.mp3" />
+    <Content Include="Content\スピナー.png" />
+    <Content Include="Content\スピナーアニメーション\スピナー1.png" />
+    <Content Include="Content\スピナーアニメーション\スピナー2.png" />
+    <Content Include="Content\スピナーアニメーション\スピナー3.png" />
+    <Content Include="Content\スピナーアニメーション\スピナー4.png" />
+    <Content Include="Content\スピナーアニメーション\スピナー5.png" />
+    <Content Include="Content\スピナーアニメーション\スピナー6.png" />
+    <Content Include="Content\スピナーアニメーション\スピナー7.png" />
+    <Content Include="Content\スピナーアニメーション\スピナー8.png" />
+    <Content Include="Content\スピナーボス.png" />
+    <Content Include="Content\スピナーボスアニメーション\スピナーボス1.png" />
+    <Content Include="Content\スピナーボスアニメーション\スピナーボス2.png" />
+    <Content Include="Content\スピナーボスアニメーション\スピナーボス3.png" />
+    <Content Include="Content\スピナーボスアニメーション\スピナーボス4.png" />
+    <Content Include="Content\スピナーボスアニメーション\スピナーボス5.png" />
+    <Content Include="Content\スピナーボスアニメーション\スピナーボス6.png" />
+    <Content Include="Content\スピナーボスアニメーション\スピナーボス7.png" />
+    <Content Include="Content\スピナーボスアニメーション\スピナーボス8.png" />
+    <Content Include="Content\スライム.png" />
+    <Content Include="Content\スライムアニメーション\スライム1.png" />
+    <Content Include="Content\スライムアニメーション\スライム2.png" />
+    <Content Include="Content\スライムアニメーション\スライム3.png" />
+    <Content Include="Content\スライムアニメーション\スライム4.png" />
+    <Content Include="Content\スライムアニメーション\スライム5.png" />
+    <Content Include="Content\スライムアニメーション\スライム6.png" />
+    <Content Include="Content\スライムボス.png" />
+    <Content Include="Content\スライムボスアニメーション\スライムボス1.png" />
+    <Content Include="Content\スライムボスアニメーション\スライムボス2.png" />
+    <Content Include="Content\スライムボスアニメーション\スライムボス3.png" />
+    <Content Include="Content\スライムボスアニメーション\スライムボス4.png" />
+    <Content Include="Content\スライムボスアニメーション\スライムボス5.png" />
+    <Content Include="Content\スライムボスアニメーション\スライムボス6.png" />
+    <Content Include="Content\タイトル.png" />
+    <Content Include="Content\パワーアップアニメーション\Item1.png" />
+    <Content Include="Content\パワーアップアニメーション\Item2.png" />
+    <Content Include="Content\パワーアップアニメーション\Item3.png" />
+    <Content Include="Content\パワーアップアニメーション\Item4.png" />
+    <Content Include="Content\パワーアップアニメーション\Item5.png" />
+    <Content Include="Content\パワーアップアニメーション\Item6.png" />
+    <Content Include="Content\ファンファーレは誰のために？.mp3" />
+    <Content Include="Content\上空.jpg" />
+    <Content Include="Content\上空下.jpg" />
+    <Content Include="Content\大砲アニメーション\砲台1.png" />
+    <Content Include="Content\大砲アニメーション\砲台10.png" />
+    <Content Include="Content\大砲アニメーション\砲台2.png" />
+    <Content Include="Content\大砲アニメーション\砲台3.png" />
+    <Content Include="Content\大砲アニメーション\砲台4.png" />
+    <Content Include="Content\大砲アニメーション\砲台5.png" />
+    <Content Include="Content\大砲アニメーション\砲台6.png" />
+    <Content Include="Content\大砲アニメーション\砲台7.png" />
+    <Content Include="Content\大砲アニメーション\砲台8.png" />
+    <Content Include="Content\大砲アニメーション\砲台9.png" />
+    <Content Include="Content\小岩.png" />
+    <Content Include="Content\小隕石アニメーション\小岩1.png" />
+    <Content Include="Content\小隕石アニメーション\小岩2.png" />
+    <Content Include="Content\小隕石アニメーション\小岩3.png" />
+    <Content Include="Content\小隕石アニメーション\小岩4.png" />
+    <Content Include="Content\小隕石アニメーション\小岩5.png" />
+    <Content Include="Content\小隕石アニメーション\小岩6.png" />
+    <Content Include="Content\敵弾.png" />
+    <Content Include="Content\敵弾黄色.png" />
+    <Content Include="Content\敵機.png" />
+    <Content Include="Content\敵機1アニメーション\敵機1.png" />
+    <Content Include="Content\敵機1アニメーション\敵機10.png" />
+    <Content Include="Content\敵機1アニメーション\敵機2.png" />
+    <Content Include="Content\敵機1アニメーション\敵機3.png" />
+    <Content Include="Content\敵機1アニメーション\敵機4.png" />
+    <Content Include="Content\敵機1アニメーション\敵機5.png" />
+    <Content Include="Content\敵機1アニメーション\敵機6.png" />
+    <Content Include="Content\敵機1アニメーション\敵機7.png" />
+    <Content Include="Content\敵機1アニメーション\敵機8.png" />
+    <Content Include="Content\敵機1アニメーション\敵機9.png" />
+    <Content Include="Content\敵機2アニメーション\敵機1.png" />
+    <Content Include="Content\敵機2アニメーション\敵機10.png" />
+    <Content Include="Content\敵機2アニメーション\敵機2.png" />
+    <Content Include="Content\敵機2アニメーション\敵機3.png" />
+    <Content Include="Content\敵機2アニメーション\敵機4.png" />
+    <Content Include="Content\敵機2アニメーション\敵機5.png" />
+    <Content Include="Content\敵機2アニメーション\敵機6.png" />
+    <Content Include="Content\敵機2アニメーション\敵機7.png" />
+    <Content Include="Content\敵機2アニメーション\敵機8.png" />
+    <Content Include="Content\敵機2アニメーション\敵機9.png" />
+    <Content Include="Content\敵機ボス.png" />
+    <Content Include="Content\敵機ボスアニメーション\敵機ボス1.png" />
+    <Content Include="Content\敵機ボスアニメーション\敵機ボス10.png" />
+    <Content Include="Content\敵機ボスアニメーション\敵機ボス11.png" />
+    <Content Include="Content\敵機ボスアニメーション\敵機ボス12.png" />
+    <Content Include="Content\敵機ボスアニメーション\敵機ボス2.png" />
+    <Content Include="Content\敵機ボスアニメーション\敵機ボス3.png" />
+    <Content Include="Content\敵機ボスアニメーション\敵機ボス4.png" />
+    <Content Include="Content\敵機ボスアニメーション\敵機ボス5.png" />
+    <Content Include="Content\敵機ボスアニメーション\敵機ボス6.png" />
+    <Content Include="Content\敵機ボスアニメーション\敵機ボス7.png" />
+    <Content Include="Content\敵機ボスアニメーション\敵機ボス8.png" />
+    <Content Include="Content\敵機ボスアニメーション\敵機ボス9.png" />
+    <Content Include="Content\氷上.jpg" />
+    <Content Include="Content\氷上下.jpg" />
+    <Content Include="Content\波動弾.png" />
+    <Content Include="Content\波動弾アニメーション\波動弾1.png" />
+    <Content Include="Content\波動弾アニメーション\波動弾2.png" />
+    <Content Include="Content\波動弾アニメーション\波動弾3.png" />
+    <Content Include="Content\波動弾アニメーション\波動弾4.png" />
+    <Content Include="Content\流星.png" />
+    <Content Include="Content\消滅.png" />
+    <Content Include="Content\消滅アニメーション\消滅1.png" />
+    <Content Include="Content\消滅アニメーション\消滅2.png" />
+    <Content Include="Content\消滅アニメーション\消滅3.png" />
+    <Content Include="Content\消滅アニメーション\消滅4.png" />
+    <Content Include="Content\消滅アニメーション\消滅5.png" />
+    <Content Include="Content\消滅アニメーション\消滅6.png" />
+    <Content Include="Content\消滅アニメーション\消滅7.png" />
+    <Content Include="Content\消滅アニメーション\消滅8.png" />
+    <Content Include="Content\火星.jpg" />
+    <Content Include="Content\火星下.jpg" />
+    <Content Include="Content\皿アニメーション\皿1.png" />
+    <Content Include="Content\皿アニメーション\皿2.png" />
+    <Content Include="Content\皿アニメーション\皿3.png" />
+    <Content Include="Content\皿アニメーション\皿4.png" />
+    <Content Include="Content\皿アニメーション\皿5.png" />
+    <Content Include="Content\皿アニメーション\皿6.png" />
+    <Content Include="Content\皿アニメーション\皿7.png" />
+    <Content Include="Content\皿アニメーション\皿8.png" />
+    <Content Include="Content\皿アニメーション\皿9.png" />
+    <Content Include="Content\砂漠.jpg" />
+    <Content Include="Content\砂漠下.jpg" />
+    <Content Include="Content\砲台.png" />
+    <Content Include="Content\砲台複数.png" />
+    <Content Include="Content\砲台複数アニメーション\砲台複数1.png" />
+    <Content Include="Content\砲台複数アニメーション\砲台複数10.png" />
+    <Content Include="Content\砲台複数アニメーション\砲台複数2.png" />
+    <Content Include="Content\砲台複数アニメーション\砲台複数3.png" />
+    <Content Include="Content\砲台複数アニメーション\砲台複数4.png" />
+    <Content Include="Content\砲台複数アニメーション\砲台複数5.png" />
+    <Content Include="Content\砲台複数アニメーション\砲台複数6.png" />
+    <Content Include="Content\砲台複数アニメーション\砲台複数7.png" />
+    <Content Include="Content\砲台複数アニメーション\砲台複数8.png" />
+    <Content Include="Content\砲台複数アニメーション\砲台複数9.png" />
+    <Content Include="Content\背景下.png" />
+    <Content Include="Content\背景.png" />
+    <Content Include="Content\背景テンプレート.png" />
+    <Content Include="Content\自機.png" />
+    <Content Include="Content\自機アニメーション\自機1.png" />
+    <Content Include="Content\自機アニメーション\自機2.png" />
+    <Content Include="Content\自機アニメーション\自機3.png" />
+    <Content Include="Content\自機アニメーション\自機4.png" />
+    <Content Include="Content\自機アニメーション\自機5.png" />
+    <Content Include="Content\自機ボス.png" />
+    <Content Include="Content\自機ボスアニメーション\自機ボス1.png" />
+    <Content Include="Content\自機ボスアニメーション\自機ボス2.png" />
+    <Content Include="Content\自機ボスアニメーション\自機ボス3.png" />
+    <Content Include="Content\自機ボスアニメーション\自機ボス4.png" />
+    <Content Include="Content\自機ボスアニメーション\自機ボス5.png" />
+    <Content Include="Content\自機弾.png" />
+    <Content Include="Content\要塞.jpg" />
+    <Content Include="Content\要塞下.jpg" />
+    <Content Include="Content\透明.png" />
+    <Content Include="Content\隕石.png" />
+    <Content Include="Content\隕石アニメーション\大岩1.png" />
+    <Content Include="Content\隕石アニメーション\大岩2.png" />
+    <Content Include="Content\隕石アニメーション\大岩3.png" />
+    <Content Include="Content\隕石アニメーション\大岩4.png" />
+    <Content Include="Content\隕石アニメーション\大岩5.png" />
+    <Content Include="Content\Icon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Content\Content.mgcb" />
+    <None Include="Content\spfont.spritefont" />
+    <None Include="Content\spfontg.spritefont" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\..\..\..\..\..\..\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.DirectInput.dll" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
